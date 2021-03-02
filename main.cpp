@@ -22,8 +22,8 @@
  */
 
 
-/*int main(int argc, const char * argv[]) {
-    string filename = "/Users/danny/Desktop/DS Projects/p1/uniform.txt";
+int main(int argc, const char * argv[]) {
+    string filename = argv[1];
     ifstream inFile;
     unsigned size = 0;
     unsigned searchSize = 0;
@@ -94,4 +94,4 @@
     
     inFile.close();
 }
-*/
+
